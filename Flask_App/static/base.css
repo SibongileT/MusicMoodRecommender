@@ -1,0 +1,25 @@
+html,body{
+  height:100%;
+  font-family: 'Monda', sans-serif;
+  background:
+  linear-gradient(
+    to bottom,rgba(241, 233, 219, 0.2),rgba(241, 233, 219, 0.2)
+  ),
+  url(background6.jpg);
+  background-size: cover;
+  /*overflow-y: scroll;
+  overflow-x: hidden;*/
+}
+.heading{
+  color: black
+}
+#main{
+  margin-top:20px !important;
+}
+
+#mySelect{
+ border-radius: 2em;
+ width:250px;
+ border: 1px solid;
+ color: #555;
+}

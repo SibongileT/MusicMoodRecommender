@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block body %}
+<style>
+  .jumbotron{
+    background-color:rgba(217,210,182,0.5) !important;
+    min-height: 600px;
+  }
+</style>
+   <div class="container">
+     <h1 class='heading'>How are you getting your playlist?</h1>
+      <hr>
+      <div class="jumbotron">
+     <div class="row">
+       <div class="col-sm">
+         <h3>Energy</h3>
+         <br>
+         <p>Energy from Spotify is defined as represents a perceptual measure of intensity and activity of a song.</p>
+         <p>When the user inputs the energy the algorithm finds any song within one point of the <i>energy</i> entered and adds those to a list of possible songs</p>
+       </div>
+       <div class="col-sm">
+         <h3>Happiness</h3>
+         <br>
+         <p>To find happiness I use <b>Valence</b>. Spotify defines valence as the musical positiveness conveyed by a track.</p>
+         <p>When the user inputs the valence the algorithm finds any song within one point of the <i>valence</i> entered and adds those to a list of possible songs</p>
+       </div>
+       <div class="col-sm">
+         <h3>Song</h3>
+         <br>
+         <p>When the user enters a song that they like the alorithm identifies the songs <b>Topic</b></p>
+         <p>The songs topic is found using <b>Topic Modeling</b> which identifies patterns between documents</p>
+       </div>
+     </div>
+     </div>
+   </div>
+ {% endblock %}
