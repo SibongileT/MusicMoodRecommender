@@ -32,4 +32,4 @@
 ---
 
 ## Results
-* [Recommender system](https://github.com/SibongileT/MusicMoodRecommender/tree/main/Flask_App) Soon to be deployed to heroku.
+* [Moodsic App](https://moodsic20.herokuapp.com/)
